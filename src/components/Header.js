@@ -7,8 +7,6 @@ import {ReactComponent as Ellipse} from "../svg/ellipse.svg";
 const Header = () => {
   return (
     <header class="navbar">
-      {/* <div className="left-section"> */}
-      {/* <div> */}
       <div class="logo">
         <img src={logo} alt="logo" className="logo-img" />
       </div>
@@ -36,8 +34,6 @@ const Header = () => {
         </ul>
       </nav>
       <div className="design-ellipse"></div>
-      {/* </div> */}
-      {/* </div> */}
     </header>
   );
 };
